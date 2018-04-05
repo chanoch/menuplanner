@@ -1,0 +1,51 @@
+Implement saving the menu to database
+Implement setting the menu for a week
+Implement marking a menu as eaten
+ - record date 
+Implement defrost meals and ready meals
+
+prerender pages
+combine reducers
+Integrate history with redux
+Split moveElement into a remove and an add - NORMALISE!
+Combined *Page with Connected*Page
+Add loading spinner during async load of recipes
+Modify add recipe to add to menu
+Modify render recipes reducer to filter out menu recipes
+Modify deselect recipe to remove from menu
+Add set menu function
+Change recipes page and menu link to say menu planner
+Separate out MenuApp into a separate web app with it's own routing
+Add labels to MenuPlannerPage as config
+Docs - on site
+
+
+Action, action creator, action type, Reducers blog
+How to load async initial from state when creating the store blog
+
+
+node sass
+menu suppress default
+google tag manager
+menu transitions
+menu title green
+make menu out of data
+Make routing and menu based on same data set
+
+
+DONE
+====
+make recipes work visually
+Add live reload
+Move config to pages from Layout
+Make recipe page work - add and remove to menu selection
+Add recipes
+Add recipes entry point
+data-hover adds css effect to recipes
+Layout
+Signature font
+Add mongo recipes api endpoint
+Wire up recipes page to recipes endpoint
+Create new menu action - make this the default page for MenuApp
+Why does select recipes for menu always appear? - this was because it was defaulting an empty recipes array
+Create a select menu action 

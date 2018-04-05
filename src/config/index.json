@@ -1,0 +1,15 @@
+{
+    "twitterLink": "https://twitter.com/chanochwiggers",
+    "twitterLinkText": "Chanoch's twitter feed",
+    "linkedinLink": "https://linkedin.com/chanoch",
+    "linkedinLinkText": "Chanoch's Linked In profile",
+    "rights": "© 2018 chanoch.com. All rights reserved.",
+    "email": "email@chanoch.com",
+    "title": "chanoch.com",
+    "strapline": "Software Delivery",
+    "headerLinkText": "Linked In",
+    "menuItems": [
+        {"key": "home", "link": "/index.html", "linkText": "Home" },
+        {"key": "menuplanner", "link": "/menuplanner/", "linkText": "Menu Planner" }
+    ]
+}

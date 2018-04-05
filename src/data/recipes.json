@@ -1,0 +1,128 @@
+[
+    {
+        "key": "salmon",
+        "name": "Salmon, Lentils and Asparagus",
+        "method": {
+            "type": "Carnivore",
+            "alternatives": [
+                {"Pescatarian": "Substitute parma ham for foil"}
+            ],
+            "time": [
+                {"preparation": 10, "uom": "minutes"},
+                {"cooking": 30, "uom": "minutes"} 
+            ],
+            "reminders": [
+                {"time": "8:00", "text": "Defrost salmon"}
+            ],
+            "ingredients": [
+                {"key": 1, "text": "Salmon", "quantity": 120, "uom": "g", "prepare": "Salt the salmon on both sides, add pepper and herbs, lemon juice, and olive oil as desired. Wrap each piece of salmon with Parma Ham or foil leaving the ends showing."},
+                {"key": 2, "text": "Lentils", "quantity": 50, "uom": "g", "prepare": "Weight out lentils"},
+                {"key": 3, "text": "Asparagus", "quantity": 0.33, "uom": "packet", "prepare": "Snap or cut about an inch or two from the bottoms off each stalk. Make sure they fit in the pan."},
+                {"key": 4, "text": "Fresh Spinach Leaves", "quantity": 1, "uom": "handful", "optional": true},
+                {"key": 5, "text": "Creme Freche", "quantity": 50, "uom": "g", "optional": true},
+                {"key": 6, "text": "Parma Ham", "quantity": 1, "uom": "slice", "optional": true},
+                {"key": 7, "text": "Herbs", "quantity": 1, "uom": "pinch", "optional": true},
+                {"key": 8, "text": "Olive Oil", "quantity": 1, "uom": "tbsp", "pantry": true},
+                {"key": 9, "text": "Lemon Juice", "quantity": 1, "uom": "tbsp", "pantry": true},
+                {"key": 10, "text": "Salt", "quantity": 1, "uom": "pinch", "pantry": true}
+            ],
+            "equipment": [
+                {"key": "Pan", "quantity": 2, "size": "medium"},
+                {"key": "Oven tray", "quantity": 1},
+                {"key": "Collander", "quantity": 1, "reason": "To drain the asparagus"},
+                {"key": "Sieve", "quantity": 1, "reason": "To drain the lentils"}
+            ],
+            "prepare": [
+                {"key": 1, "time": 0, "duration": 15, "text": "Preheat Oven to 180C, you can oil the oven tray and preheat it in the oven too."},
+                {"key": 2, "time": 0, "duration": 3, "text": "Boil kettle for lentils - use plenty of water"},
+                {"key": 3, "time": 7, "duration": 3, "text": "Add lentils and a pinch of salt to boiling water and bring back to boiling point", "ingredients": [2, 10]},
+                {"key": 4, "time": 10, "duration": 20, "text": "Boil lentils on high for 20 minutes"},
+                {"key": 5, "time": 15, "duration": 3, "text": "Boil kettle for asparagus"},
+                {"key": 6, "time": 28, "duration": 5, "text": "Add hot water to second pan and bring to boil with a pinch of salt. Don't add asparagus yet."},
+                {"key": 7, "time": 30, "duration": 11, "text": "Put Salmon in oven on a baking tray, skin side down to make sure the skin crisps.", "ingredients": [1]},
+                {"key": 8, "time": 31, "duration": 10, "text": "Turn down the heat on the lentils and simmer them for 10-15 minutes."},
+                {"key": 9, "time": 34, "duration": 7, "text": "Add asparagus to the pan, bring to the boil and then boil on a medium heat for 4-5 minutes.", "ingredients": [3]},
+                {"key": 10, "time": 41, "duration": 1, "text": "Taste lentils to check they are cooked then drain. Stir in olive oil and spinach leaves and leave to stand.", "ingredients": [4]},
+                {"key": 11, "time": 42, "duration": 2, "text": "Put the salmon skin side up on the plate, and arrange the Asparagus to one side. Add the lentils to the plate with a dollop of creme freche on top then season to taste. Serve.", "ingredients": [5]}
+            ]
+        }
+    },{
+        "key": "spagbol",
+        "name": "Spaghetti and Meatballs"
+    },{
+        "key": "pizza",
+        "name": "Pizza"
+    },{
+        "key": "pastabake",
+        "name": "Pasta Bake"
+    },{
+        "key": "burgers",
+        "name": "Burgers with salad"
+    },{
+        "key": "omelette",
+        "name": "Omelette"
+    },{
+        "key": "Risotto",
+        "name": "Risotto with Veg"
+    },{
+        "key": "seafoodrisotto",
+        "name": "Seafood Risotto"
+    },{
+        "key": "pies",
+        "name": "Steak and Kidney Pies"
+    },{
+        "key": "kievs",
+        "name": "Chicken Kievs"
+    },{
+        "key": "toad",
+        "name": "Toast in the Hole"
+    },{
+        "key": "pastasausages",
+        "name": "Sausages and Pasta"
+    },{
+        "key": "beanpastie",
+        "name": "Bean Pastie"
+    },{
+        "key": "curry",
+        "name": "Curry"
+    },{
+        "key": "Fajitas",
+        "name": "Fajitas"
+    },{
+        "key": "vegpie",
+        "name": "Vegetable Pie"
+    },{
+        "key": "burritos",
+        "name": "Burritos"
+    },{
+        "key": "spinachpancakes",
+        "name": "Spinach and Cheese Stuffed Pancakes"
+    },{
+        "key": "couscous",
+        "name": "Couscous"
+    },{
+        "key": "bakedpotato",
+        "name": "Baked Potato"
+    },{
+        "key": "greektart",
+        "name": "Greek Tart"
+    },{
+        "key": "stirfry",
+        "name": "Stir Fry"
+    },{
+        "key": "fritters",
+        "name": "Pea and Halloumi Fritters"
+    },{
+        "key": "seabass",
+        "name": "Sea Bass"
+    },{
+        "key": "macandcheese",
+        "name": "Macaroni and Cheese"
+    },{
+        "key": "riceegg",
+        "name": "Rice, scrambled eggs, and peas"
+    },{
+        "key": "tacos",
+        "name": "Tacos"
+    }
+]
