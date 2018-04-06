@@ -1,11 +1,10 @@
 import React from 'react';
 import {Provider, connect } from 'react-redux';
+import {history} from '../../components/SimpleReactRouter';
 
 import {Layout, Divider} from '@chanoch/chanoch-com-components';
 
 import Recipe from './Recipe';
-
-import history from '../../components/History';
 
 import config from '../../../config';
 
@@ -33,7 +32,7 @@ export class MenuPlannerPage extends React.Component {
      */
     selectMenu(e) {
         e.preventDefault();
-        history.push('/menuplanner/selectmenu.html');
+        this.props.selectMenu();
     }
 
     render() {
@@ -64,8 +63,6 @@ export class MenuPlannerPage extends React.Component {
     }
 }
 
-import {createNewMenu} from './redux/CreateNewMenu';
-
 const mapStateToProps = (state) => {
     return {
         menu: state.menu,
@@ -73,8 +70,12 @@ const mapStateToProps = (state) => {
     }
 };
 
+import {createNewMenu} from './redux/CreateNewMenu';
+import {listRecipes} from './redux/ListRecipes';
+
 const mapDispatchToProps = (dispatch) => ({
     createMenu: () => dispatch(createNewMenu()),
+    selectMenu: () => dispatch(listRecipes()),
 });
 
 const ConnectedMenuPlannerPage = 

@@ -15,7 +15,6 @@ import config from '../../../config';
 class RecipesPage extends React.Component {
     render() {
         const {selected, recipes, select, deselect} = this.props;
-        console.log(recipes);
         return (
             <Provider store={this.props.store}>
                 <Layout title="Wiggers family menu planner." active={"Menu Planner"} config={config}>

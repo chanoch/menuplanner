@@ -4,6 +4,8 @@ export const LIST_RECIPES = "LIST_RECIPES";
 export const RECEIVE_RECIPES = 'RECEIVE_RECIPES';
 export const LIST_RECIPES_FAILED = 'LIST_RECIPES_FAILED';
 
+import {history} from '../../../components/SimpleReactRouter';
+
 /** 
  * Async mutating middleware that loads the full list of recipes and then dispatches an action to render
  * them 
@@ -11,8 +13,9 @@ export const LIST_RECIPES_FAILED = 'LIST_RECIPES_FAILED';
 export function ListRecipesMiddleware() {
     return store => dispatch => action => {
         dispatch(action);
-        if(action.key===LIST_RECIPES) {
+        if(action.type===LIST_RECIPES) {
             fetchRecipes(recipes => dispatch(receiveRecipes(recipes)));
+            history.push('/menuplanner/selectmenu.html');
         }
     }
 }
@@ -23,6 +26,12 @@ export function ListRecipesMiddleware() {
 export function listRecipeFailed() {
     return {
         type: LIST_RECIPES_FAILED
+    }
+}
+
+export function listRecipes() {
+    return {
+        type: LIST_RECIPES,
     }
 }
 

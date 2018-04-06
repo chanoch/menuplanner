@@ -1,14 +1,19 @@
 {
-    "title": "w/b 23rd November",
-    "meals": [
-        { "name":	"Bean Pastie", "meal_id": "5a8dac5d798df85e76e517ab"},
-        { "name":   "Toast in the Hole", "meal_id": "5a8dac5d798df85e76e517a0"},
-        { "name":	"Salmon, Lentils and Asparagus", "meal_id": "5a8dac5d798df85e76e517a1"},
-        { "name":   "Pie and Chips","meal_id":"5ac56ef6f36d281564cb2676"}
-    ],
-    "list": [
+    "Sample menu": {
+    "title": "w/b 6th April",
+    "start_date": "2018-04-06T00:00:00.001Z",
+     "meals": [
+        { "name":	"Fajitas", "meal_id": "5a8dac5d798df85e76e517a4"},
+        { "name":	"Sea Bass", "meal_id": "5a8dac5d798df85e76e517ae"},
+        { "name":	"Curry", "meal_id": "5a8dac5d798df85e76e517a5"},
+        { "name":	"Burgers with salad", "meal_id": "5a8dac5d798df85e76e517ad"},
+        { "name":	"Omelette", "meal_id": "5a8dac5d798df85e76e517a3"},
+        { "name":	"Spaghetti and Meatballs", "meal_id": "5a8dac5d798df85e76e5179a"}
+    ]
+},
 
-
+    
+"recipes": [
 { "name":	"Baked Potato", "meal_id": "5a8dac5d798df85e76e517aa"},
 { "name":	"Bean Pastie", "meal_id": "5a8dac5d798df85e76e517ab"},
 { "name":	"Burgers with salad", "meal_id": "5a8dac5d798df85e76e517ad"},
