@@ -1,0 +1,156 @@
+{
+    "recipes":
+[
+    
+    {"_id":"5a8c6ceaf36d286fea326c12"
+		,"key":"Bkn59fDroM"
+		,"last_used":"2018-04-06T00:00:00.001Z"
+		,"name":"Tacos"},
+    {"_id":"5a8dac5d798df85e76e51799"
+		,"key":"SkkZ9cMDHif"
+		,"last_used":"2018-02-07T00:00:00.001Z"
+		,"name":"Pizza"},
+    {"_id":"5a8dac5d798df85e76e5179b"
+		,"key":"S1eWcqzPHsG"
+		,"last_used":"2018-02-07T00:00:00.001Z"
+		,"name":"Pasta Bake"},
+    {"_id":"5a8dac5d798df85e76e5179c"
+		,"key":"S1ZZc5fvHoM"
+		,"last_used":"2018-02-07T00:00:00.001Z"
+		,"name":"Risotto with Veg"},
+    {"_id":"5a8dac5d798df85e76e5179d"
+		,"key":"SJCg5qfPHoG"
+		,"last_used":"2018-02-15T00:00:00.001Z"
+		,"name":"Seafood Risotto"},
+    {"_id":"5a8dac5d798df85e76e5179f"
+		,"key":"HyOgqqfDSjz"
+		,"last_used":"2018-03-16T00:00:00.001Z"
+		,"name":"Chicken Kievs"},
+    {"_id":"5a8dac5d798df85e76e517a0"
+		,"key":"BJql5qfDroG"
+		,"last_used":"2018-03-16T00:00:00.001Z"
+		,"name":"Toast in the Hole"},
+    {"_id":"5a8dac5d798df85e76e517a1"
+		,"key":"HkDe9qGDrif"
+		,"last_used":"2018-03-16T00:00:00.001Z"
+		,"name":"Salmon, Lentils and Asparagus",
+        "method":
+    {"type":"Carnivore","alternatives":[
+    {"Pescatarian":"Substitute parma ham for foil"}],"time":[
+    {"preparation":10,"uom":"minutes"},
+    {"cooking":30,"uom":"minutes"}],"reminders":[
+    {"time":"8:00","text":"Defrost salmon"}],"ingredients":[
+    {"key":1,"text":"Salmon","quantity":120,"uom":"g","prepare":"Salt the salmon on both sides, add pepper and herbs, lemon juice, and olive oil as desired. Wrap each piece of salmon with Parma Ham or foil leaving the ends showing."},
+    {"key":2,"text":"Lentils","quantity":50,"uom":"g","prepare":"Weight out lentils"},
+    {"key":3,"text":"Asparagus","quantity":0.33,"uom":"packet","prepare":"Snap or cut about an inch or two from the bottoms off each stalk. Make sure they fit in the pan."},
+    {"key":4,"text":"Fresh Spinach Leaves","quantity":1,"uom":"handful","optional":true},
+    {"key":5,"text":"Creme Freche","quantity":50,"uom":"g","optional":true},
+    {"key":6,"text":"Parma Ham","quantity":1,"uom":"slice","optional":true},
+    {"key":7,"text":"Herbs","quantity":1,"uom":"pinch","optional":true},
+    {"key":8,"text":"Olive Oil","quantity":1,"uom":"tbsp","pantry":true},
+    {"key":9,"text":"Lemon Juice","quantity":1,"uom":"tbsp","pantry":true},
+    {"key":10,"text":"Salt","quantity":1,"uom":"pinch","pantry":true}],"equipment":[
+    {"key":"Pan","quantity":2,"size":"medium"},
+    {"key":"Oven tray","quantity":1},
+    {"key":"Collander","quantity":1,"reason":"To drain the asparagus"},
+    {"key":"Sieve","quantity":1,"reason":"To drain the lentils"}],"prepare":[
+    {"key":1,"time":0,"duration":15,"text":"Preheat Oven to 180C, you can oil the oven tray and preheat it in the oven too."},
+    {"key":2,"time":0,"duration":3,"text":"Boil kettle for lentils - use plenty of water"},
+    {"key":3,"time":7,"duration":3,"text":"Add lentils and a pinch of salt to boiling water and bring back to boiling point","ingredients":[2,10]},
+    {"key":4,"time":10,"duration":20,"text":"Boil lentils on high for 20 minutes"},
+    {"key":5,"time":15,"duration":3,"text":"Boil kettle for asparagus"},
+    {"key":6,"time":28,"duration":5,"text":"Add hot water to second pan and bring to boil with a pinch of salt. Don't add asparagus yet."},
+    {"key":7,"time":30,"duration":11,"text":"Put Salmon in oven on a baking tray, skin side down to make sure the skin crisps.","ingredients":[1]},
+    {"key":8,"time":31,"duration":10,"text":"Turn down the heat on the lentils and simmer them for 10-15 minutes."},
+    {"key":9,"time":34,"duration":7,"text":"Add asparagus to the pan, bring to the boil and then boil on a medium heat for 4-5 minutes.","ingredients":[3]},
+    {"key":10,"time":41,"duration":1,"text":"Taste lentils to check they are cooked then drain. Stir in olive oil and spinach leaves and leave to stand.","ingredients":[4]},
+    {"key":11,"time":42,"duration":2,"text":"Put the salmon skin side up on the plate, and arrange the Asparagus to one side. Add the lentils to the plate with a dollop of creme freche on top then season to taste. Serve.","ingredients":[5]}]}},
+    {"_id":"5a8dac5d798df85e76e517a2"
+		,"key":"SJtx59fwHsf"
+		,"last_used":"2018-03-16T00:00:00.001Z"
+		,"name":"Sausages and Pasta"},
+    {"_id":"5a8dac5d798df85e76e517a3"
+		,"key":"r1WeqqzPBjM"
+		,"last_used":"2018-04-06T00:00:00.001Z"
+		,"name":"Omelette"},
+    {"_id":"5a8dac5d798df85e76e517a4"
+		,"key":"H13xqqMvHjf"
+		,"last_used":"2018-02-22T00:00:00.001Z"
+		,"name":"Fajitas"},
+    {"_id":"5a8dac5d798df85e76e517a5"
+		,"key":"ryC95zPrjG"
+		,"last_used":"2018-04-06T00:00:00.001Z"
+		,"name":"Curry"},
+    {"_id":"5a8dac5d798df85e76e517a6"
+		,"key":"rkmZ5cGvrsf"
+		,"last_used":"2017-12-27T00:00:00.001Z"
+		,"name":"Vegetable Pie"},
+    {"_id":"5a8dac5d798df85e76e517a7"
+		,"key":"rJCbc5MDHsG"
+		,"last_used":"1974-11-27T00:00:00.001Z"
+		,"name":"Burritos"},
+    {"_id":"5a8dac5d798df85e76e517a8"
+		,"key":"H1zb55GDHif"
+		,"last_used":"2018-01-30T00:00:00.001Z"
+		,"name":"Couscous"},
+    {"_id":"5a8dac5d798df85e76e517aa"
+		,"key":"S1Ulq5MvSsG"
+		,"last_used":"2018-03-16T00:00:00.001Z"
+		,"name":"Baked Potato"},
+    {"_id":"5a8dac5d798df85e76e517ab"
+		,"key":"HySx99zDHiM"
+		,"last_used":"2018-03-16T00:00:00.001Z"
+		,"name":"Bean Pastie"},
+    {"_id":"5a8dac5d798df85e76e517ad"
+		,"key":"BJggq5MDBoG"
+		,"last_used":"2018-04-06T00:00:00.001Z"
+		,"name":"Burgers with salad"},
+    {"_id":"5a8dac5d798df85e76e517ae"
+		,"key":"S1655MPrsG"
+		,"last_used":"2018-04-06T00:00:00.001Z"
+		,"name":"Sea Bass"},
+    {"_id":"5a8dac5d798df85e76e517af"
+		,"key":"Sy3W99MDSiz"
+		,"last_used":"1974-11-27T00:00:00.001Z"
+		,"name":"Greek Tart"},
+    {"_id":"5a8dac5d798df85e76e517b0"
+		,"key":"Hyaxq9zvSif"
+		,"last_used":"2018-02-15T00:00:00.001Z"
+		,"name":"Stir Fry"},
+    {"_id":"5ac56ef6f36d281564cb2676"
+		,"name":"Pie and Chips"
+		,"key":"ByHZqqfvroM"
+		,"last_used":"2017-12-06T00:00:00.001Z"},
+    {"_id":"5a8dac5d798df85e76e5179a"
+		,"key":"H1Gl5czvSjf"
+		,"last_used":"2018-04-06T00:00:00.001Z"
+		,"name":"Spaghetti and Meatballs"},
+    {"_id":"5a8dac5d798df85e76e517ac"
+		,"key":"r17xcqGPBif"
+		,"last_used":"2018-03-23T00:00:00.001Z"
+		,"name":"Pea and Halloumi Fritters"},
+    {"_id":"5a8dac5d798df85e76e517b1"
+		,"key":"S1VgqcMvSoz"
+		,"last_used":"2018-03-23T00:00:00.001Z"
+		,"name":"Macaroni and Cheese"},
+    {"_id":"5a8c6d0ff36d286fea326c17"
+		,"key":"B1og9qGDSsM"
+		,"last_used":"2018-02-27T00:00:00.001Z"
+		,"name":"Rice, scrambled eggs, and peas"},
+    {"_id":"5ac56ee8f36d281564cb2674"
+		,"key":"SJVZ55fPBsM"
+		,"last_used":"2017-12-14T00:00:00.001Z"
+		,"name":"Tuna and Pasta Salad"},
+    {"_id":"5ac57172f36d281564cb26dc"
+		,"name":"Chicken and Pasta Salad"
+		,"key":"SJxGq9fDSsG"
+		,"last_used":"2017-11-23T00:00:00.001Z"},
+    {"_id":"5ac57184f36d281564cb26dd"
+		,"name":"Spaghetti Bolognese"
+		,"key":"B1yG55zDroM"
+		,"last_used":"2017-11-23T00:00:00.001Z"},
+    {"_id":"5a8dac5d798df85e76e517a9"
+		,"key":"Sya-95GDrif"
+		,"last_used":"1974-11-27T00:00:00.001Z"
+		,"name":"Spinach and Cheese Stuffed Pancakes"}]
+}

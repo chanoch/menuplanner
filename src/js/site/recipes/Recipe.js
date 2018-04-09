@@ -9,11 +9,12 @@ class Recipe extends Component {
     }
 
     clicked(e) {
+        e.preventDefault();
         this.props.onClick(this.props.recipeId);
     }
 
     render () {
-        const {name, onClick} = this.props;
+        const {name} = this.props;
         return (
             <section className="section recipe">
                 <div className="container">

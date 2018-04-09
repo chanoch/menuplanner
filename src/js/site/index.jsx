@@ -6,8 +6,9 @@ import routes from './recipes/routes';
 import {SelectRecipeMiddleware} from './recipes/redux/SelectRecipe';
 import {DeselectRecipeMiddleware} from './recipes/redux/DeselectRecipe';
 import {ListRecipesMiddleware} from './recipes/redux/ListRecipes';
-import {ListMenusMiddleware, receiveMenus} from './recipes/redux/ListMenus';
-import { CreateMenuMiddleware } from './recipes/redux/CreateNewMenu';
+import {ListMenusMiddleware, ListOpenMenusMiddleware} from './recipes/redux/ListMenus';
+import {CreateMenuMiddleware } from './recipes/redux/CreateNewMenu';
+import {ArchiveMenuMiddleware} from './recipes/redux/ArchiveMenu';
 
 import {rootReducer} from './recipes/RootReducer';
 
@@ -23,8 +24,10 @@ const middleware = [
     SelectRecipeMiddleware(),
     DeselectRecipeMiddleware(),
     ListMenusMiddleware(),
+    ListOpenMenusMiddleware(),
     ListRecipesMiddleware(),
-    CreateMenuMiddleware()
+    CreateMenuMiddleware(),
+    ArchiveMenuMiddleware(),
 ]
 
 /**
@@ -40,5 +43,7 @@ const router = new SimpleReactRouter(
 /**
  * Fetch the list of historical menus (or meal plans)
  */
-import {fetchMenus} from './recipes/service/menus';
-fetchMenus(menus => router.dispatch(receiveMenus(menus)));
+import {receiveMenus} from './recipes/redux/ListMenus';
+import MenuService from './recipes/service/menus';
+const menuService = new MenuService();
+menuService.fetchOpenMenus(menus => router.dispatch(receiveMenus(menus)));

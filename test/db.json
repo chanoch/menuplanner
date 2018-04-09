@@ -1,0 +1,5 @@
+{
+    "MONGO_SERVER": "ds243008.mlab.com:43008/wiggers_menu",
+    "MONGO_USER": "app_user",
+    "MONGO_PW": "hyCwjvLQjT35BHl5TBywHWbUy3PM0R"
+}

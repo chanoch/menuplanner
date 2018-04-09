@@ -1,0 +1,14 @@
+.menu_body .menu_title {
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+
+    border-bottom: 1px dashed #868e96;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 0 !important;
+    text-align: left !important;
+}
+
+.menu_body .menu_title span.right {
+    float: right;
+}
