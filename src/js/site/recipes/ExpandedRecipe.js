@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import './recipe.css';
 
-class Recipe extends Component {
+class ExpandedRecipe extends Component {
     render () {
         const {name} = this.props;
         return (
@@ -33,4 +33,4 @@ class Recipe extends Component {
     }
 }
 
-export default Recipe
+export default ExpandedRecipe;
